@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+/* Colors and fonts */
+body {
+  display: block;
+  margin: 8px;
+  color:#FFAD60;
+  background-color: white;
+  font-family: 'Segoe UI';
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2, p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+  color:white;
+  font-family: Calibri;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+ul {
+  color:black;
+  font-size: 10px;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* Custom design with class */
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  background-color: #A02334;
+  padding: 10px 25px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: lightpink;
+  font-family: Calibri;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: black;;
+}
+
+.list-inline i:hover {
+  color: grey;
+}
+
+/* Design adjustements using id */
+#introduction p {
+  margin-bottom: 40px;
+}
